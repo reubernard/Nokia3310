@@ -1,7 +1,6 @@
 import java.util.Scanner;
-
 public class Nokia3310 {
-    public static void main(String[] args) {
+public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
@@ -652,8 +651,7 @@ public class Nokia3310 {
                 System.out.print(simServicesPrompt);
                 input.nextInt();
                 break;
-            }
-        }
-    }
 }
-
+}
+}
+}
