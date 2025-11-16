@@ -337,11 +337,6 @@ while (true) {
 
                 CALL DIVERT
 
-                1 -> Divert all voice calls
-                2 -> Divert when busy
-                3 -> Divert when not answered
-                4 -> Divert when switched off
-                5 -> Cancel all diverts
                 0 -> Back
 
                 """;
@@ -359,12 +354,6 @@ while (true) {
                 String gamesMenu = """
 
                 GAMES
-
-                1 -> Snake
-                2 -> Space Impact
-                3 -> Bantumi
-                4 -> Pairs II
-                0 -> Back
 
                 """;
                 System.out.print(gamesMenu);
@@ -386,9 +375,6 @@ while (true) {
 
                 REMINDERS
 
-                1 -> Add reminder
-                2 -> View reminders
-                3 -> Delete reminder
                 0 -> Back
 
                 """;
@@ -458,9 +444,6 @@ while (true) {
 
                 SIM SERVICES
 
-                1 -> SIM Menu 1
-                2 -> SIM Menu 2
-                3 -> SIM Menu 3
                 0 -> Back
 
                 """;
